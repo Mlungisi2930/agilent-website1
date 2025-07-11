@@ -1,0 +1,454 @@
+
+<style>
+  .onp
+  {
+    
+  
+    font-size: larger;
+    text-align: right;
+   margin-top: 0.1%;
+    padding-top: 0.1%;
+  }
+  .ttt
+  {
+    position: relative;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    padding-top: 0.1%;
+  
+  
+  }
+  .iii{
+    padding: 10%;
+    background-color: lightblue;
+  }
+  .leu{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    resize: 1000px;
+  }
+  
+  .vvv{
+
+padding-left: 10%;
+padding-right: 10%;
+margin-left: 5%;
+margin-right: 5%;
+
+
+  }
+  .color4{
+    padding: 10%;
+    background-color: lightgrey;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .little{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+ .hhh{
+  padding: 0.9%;
+  text-align: center;
+  font-size: 20px;
+  color: blueviolet;
+  background-color: lightblue;
+ }
+ .mthaniya{
+  padding-left: 15%;
+  padding-right: 15%;
+ }
+
+ body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 700%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 280px;
+  position: relative;
+  
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50px;
+  width: 10px;
+  padding: 10px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  background-color: #818181;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel ="stylesheet" type="text/css" href="project2.css"/> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body> 
+  <div class="bg">
+    <img class="main-pic" src="image/ddd.png" width="200px">
+    <input class="place " type="text" placeholder="Search.." padding="20%" width="700px">
+    <a href="Contact Us.html"><button class="button3">CONTACT AGILENT</button></a></div> 
+<section class="topview">
+ <hr>
+  <ul class="ul">
+    <li><a href="project.html">HOME</a></li>
+    <li><a href="About Us.html">ABOUT AGILENT</a></li>
+    <li><a href="product info.html">PRODUCT INFORMATION MANAGEMENT</a></li>
+    <li><a href="Online sale.html">ONLINE SALES AND PURCHASES</a></li>
+    <li><a href="Inventory management.html">INVENTORY MANAGEMENT</a></li>
+    <li><a href="Order_Management.html">ORDER MANAGEMENT</a></li>
+    <li><a href="Shipping.html">SHIPPING SERVICE</a></li>
+    <div class="icon9">
+    <i class="fa fa-shopping-cart" style="font-size:40px;color:blue"></i>
+  </div>
+  </ul>
+</section>
+  <div class="little">
+    <div class="com">
+    <h4 style="color: blueviolet; font-size: 31px;" >Agilent technologies.com</h4>
+</div>
+  </div>
+    <input class="place " type="text" placeholder="Search all orders" padding="50%" width="50%">
+    <a href=""><button class="button3">Search Orders</button></a></div> 
+    <div class="icon9">
+      <i class="fa fa-shopping-cart" style="font-size:40px;color:blue"></i>
+    </div>
+<hr>
+<ul class="ul">
+<div class="leu">
+
+  <li><a href="">Categories</a></li>
+  <li><a href="">Sell on Agilent.com</a></li>
+  <li><a href="">Eletroic gadget</a></li>
+  <li><a href="">Ready to Ship</a></li>
+  <li><a href="">Buyer Central</a></li>
+  <li><a href="">Trade show</a></li>
+  <li><a href="">Help</a></li>
+  
+</ul>
+</div>
+<hr>
+<div class="hhh">
+
+  <a href="">Customizable</a>|
+
+  <a href="">Ready to Shipping</a>|
+
+  <a href="">All Suppliers</a>|
+
+  <a href="">Verified Manufacture</a>|
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+ 
+  <p>Click on the element below to open the side navigation menu.</p>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<div class="mthaniya">
+    <h2>Online SHOPPING</h2><p>Laptop lenovo i5 core</p>
+    <h3>$376,857</h3>
+    <p>10 pieces</p>
+    <a href=""> CN Supplier</a>
+    <a href="">4.7(1)</a>
+    <a href="">Customer Service</a>
+    <img class="vvv" src="image/Laptop.png" style="background-color: white;">
+    <p>Chat now!</p>
+    <i class='fa fa-comment' style='font-size:36px'></i>
+    <button class="button3">Contact Supplier</button></div> 
+    
+    
+    <hr>
+    <div class="mthaniya">
+    <h2>Online SHOPPING</h2><p>Laptop lenovo i5 core</p>
+    <h3>$376,857</h3>
+    <p>10 pieces</p>
+    <a href=""> CN Supplier</a>
+    <a href="">4.7(1)</a>
+    <a href="">Customer Service</a>
+    <img class="vvv" src="image/projector.png" style="background-color: white;">
+    <p>Chat now!</p>
+    
+    <i class='fa fa-comment' style='font-size:30px;color:red'></i>
+    
+    <button class="button3">Contact Supplier</button></div> 
+    
+  
+    <hr>
+    <div class="mthaniya">
+    <h2>Online SHOPPING</h2><p>Laptop lenovo i5 core</p>
+    <h3>$376,857</h3>
+    <p>10 pieces</p>
+    <a href=""> CN Supplier</a>
+    <a href="">4.7(1)</a>
+    <a href="">Customer Service</a>
+    <img class="vvv" src="image/desk.png" style="background-color: white;">
+    <p>Chat now!</p> 
+    <i class='fa fa-comment' style='font-size:30px;color:red'></i>
+    <button class="button3">Contact Supplier</button></div>
+    
+  
+    <hr>
+    <div class="mthaniya">
+    <h2>Online SHOPPING</h2><p>Laptop lenovo i5 core</p>
+    <h3>$376,857</h3>
+    <p>10 pieces</p>
+    <a href=""> CN Supplier</a>
+    <a href="">4.7(1)</a>
+    <a href="">Customer Service</a>
+    <img class="vvv" src="image/Mobile.png" style="background-color: white;">
+    <p>Chat now!</p>
+    <i class='fa fa-comment' style='font-size:30px;color:red'></i>
+  
+    <button class="button3">Contact Supplier</button></div> 
+   
+    
+    <hr> 
+    <div class="mthaniya">
+    <h2>Online SHOPPING</h2><p>Laptop lenovo i5 core</p>
+    <h3>$376,857</h3>
+    <p>10 pieces</p>
+    <a href=""> CN Supplier</a>
+    <a href="">4.7(1)</a>
+    <a href="">Customer Service</a>
+    <img class="vvv" src="image/Smart.jpg" style="background-color: white;">
+    <p>Chat now!</p>
+    <i class='fa fa-comment' style='font-size:30px;color:red'></i>
+    <button class="button3">Contact Supplier</button></div> 
+   
+
+    <hr>
+    <div class="mthaniya">
+    <h2>Online SHOPPING</h2><p>Laptop lenovo i5 core</p>
+    <h3>$376,857</h3>
+    <p>10 pieces</p>
+    <a href=""> CN Supplier</a>
+    <a href="">4.7(1)</a>
+    <a href="">Customer Service</a>
+    
+    <img class="vvv" src="image/router05.jpg" style="background-color: white;">
+    <p>Chat now!</p>
+    <i class='fa fa-comment'  style='font-size:30px;color:red'></i>
+    <button class="button3">Contact Supplier</button></div> 
+   
+    <hr>
+  </div>
+</div>
+
+
+  <hr>
+
+  <p style ="color: white;">CONNECT WITH AGILENT</p>
+<div class="icon">
+  <div class ="last" style="background-color:navy;">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<i class="fa fa-whatsapp" style="font-size:48px;color:green"></i>
+</div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:black;font-size: 85%; " >
+    <h2 style ="color:white"></h2style><u>SHOPPING SERVICE</u></h2>
+    <p style ="color:white">Buy Online</p>
+    <p style ="color:white">Quick Order</p>
+    <p style ="color:white">My Favorites</p>
+    <p style ="color:white">Where to Buy</p>
+    <p style ="color:white">Promotion & Offer</p>
+    <p style ="color:white">Return Policy</p>
+  </div>
+  
+  <div class="column" style="background-color:black;font-size: 85%;">
+    <h2 style ="color:white"></h2style> <u>SUPPORT & SERVICE</u></h2>
+    <p style ="color:white">Agilent Community</p>
+    <p style ="color:white">Technical Support</p>
+    <p style ="color:white">On-site Service</p>
+    <p style ="color:white">Analytical Instrument Service</p>
+    <p style ="color:white">Finacial solution</p>
+
+    
+  </div>
+  <div class="column" style="background-color:black;font-size: 85%;">
+    <h2 style ="color:white"></h2style><u>ABOUT AGILENT</u></h2>
+    <p style ="color:white">Newsroom</p>
+    <p style ="color:white">Company information</p>
+    <p style ="color:white">Investor Relation</p>
+    <p style ="color:white">Careers</p>
+    <p style ="color:white">Community Relations</p>
+    <p style ="color:white">Working with Agilent</p>
+    <p style ="color:white">Great Science</p>
+   
+</div>
+    <div class="column" style="background-color:black; font-size: 85%;">
+      <h2 style ="color:white"></h2style><u>AGILENT</u></h2>
+      <p style ="color:white">Agilent Community</p>
+      <p style ="color:white">Technical Support</p>
+      <p style ="color:white">On-site Service</p>
+      <p style ="color:white">Analytical Instrument Service</p>
+      <p style ="color:white">Finacial solution</p>
+    </div>
+    </div>
+    <div class="last-par" style="text-align: center; background-color: black; padding: 1.5%; font-size: smaller;">
+    <p>Privacy Statement| Terms of Use|Contact Us|Accessibility.</p>
+    <p>@ 2023</p>
+     
+</body>
+</html>
